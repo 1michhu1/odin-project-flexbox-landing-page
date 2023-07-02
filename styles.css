@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.header, .hero-content {
+    display: flex;
+}
+
+
+
+.header {
+    justify-content: space-between;
+}
+
+.hero-content {
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-words, .black {
+    flex: 0 1 400px;
+}
+
+.black {
+    background-color: black;
+}
