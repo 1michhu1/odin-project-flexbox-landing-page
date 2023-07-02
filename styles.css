@@ -8,11 +8,15 @@ body {
     height:100%;
 }
 
+
+/* HERO SECTION STLYES*/
 .header, .hero-content {
     display: flex;
 }
 
-
+.hero {
+    border-bottom: 3px black solid;
+}
 
 .header {
     justify-content: space-between;
@@ -29,4 +33,28 @@ body {
 
 .black {
     background-color: black;
+}
+
+/*INFO SECTION STYLES */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.square {
+    height: 100px;
+    background-color: black;
+    border: 3px red solid;
+    flex-shrink: 0;
 }
